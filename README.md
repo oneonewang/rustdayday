@@ -43,6 +43,33 @@ cat README.md
 - [Rustlings（小练习）](https://github.com/rust-lang/rustlings)
 - [标准库 API 文档](https://doc.rust-lang.org/std/)
 
+## 🛠️ Zed IDE 调试（已配好）
+
+仓库里已配好两个 Zed 配置文件：
+
+- **`.zed/debug.json`**：列出全部 16 个小程序的调试入口。在 Zed 里按 `F4`（或菜单 Run → Start Debugger），从下拉里选一个就能直接断点调试。
+- **`.zed/tasks.json`**：6 个常用 cargo 任务（run / check / test / build --release / fmt / clippy）。光标停在某个项目的 `src/main.rs` 上按对应快捷键，就会在**那个项目目录**里跑 cargo。
+
+### 第一次使用需要做的事
+
+1. **装调试器**：
+   - macOS：`brew install lldb`
+   - Ubuntu / Debian：`sudo apt install lldb`
+2. **装 rust-analyzer 扩展**：Zed 设置里搜 `rust-analyzer` 启用。
+3. **打开项目根**：在 Zed 里"Open Folder"打开 `rustdayday/` 整个目录。
+4. **第一次跑某个程序**前，可能要等 Zed 在该子目录自动建好 `target/`。如果构建慢，终端里先 `cd` 进那个子目录跑一次 `cargo build` 预热。
+
+### 常见坑
+
+| 报错 | 原因 | 修法 |
+|------|------|------|
+| `error: unexpected argument '' found` | Zed 把空字符串传给 cargo | 删掉 `~/.config/zed/settings.json` 里 Rust 相关的 `args` 字段，只留 `.zed/debug.json` |
+| 找不到 `target/debug/xxx` | 该子项目还没 build 过 | 在子目录 `cargo build` 一次 |
+| 调试器 attach 失败 | 没装 lldb | 见上面"装调试器" |
+| rust-analyzer 不工作 | 没装 rust 工具链 | `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \| sh` |
+
+> ⚠️ **特别注意**：每个小程序都是**独立 cargo 项目**，都有自己单独的 `target/` 目录。**根目录没有 `Cargo.toml`，不要在根目录跑 `cargo build`**——会找不到 `package` 段。
+
 ## 📝 当前进度
 
 - [x] **Stage 1**：

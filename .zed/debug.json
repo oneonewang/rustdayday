@@ -1,0 +1,158 @@
+[
+  {
+    "label": "▶ S1 · ex01_hello_cargo",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-01-basics/exercises/ex01_hello_cargo"
+    },
+    "binary": "stage-01-basics/exercises/ex01_hello_cargo/target/debug/ex01_hello_cargo"
+  },
+  {
+    "label": "▶ S1 · ex02_fibonacci",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-01-basics/exercises/ex02_fibonacci"
+    },
+    "binary": "stage-01-basics/exercises/ex02_fibonacci/target/debug/ex02_fibonacci"
+  },
+  {
+    "label": "▶ S1 · ex03_temperature",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-01-basics/exercises/ex03_temperature"
+    },
+    "binary": "stage-01-basics/exercises/ex03_temperature/target/debug/ex03_temperature"
+  },
+  {
+    "label": "▶ S1 · ex04_fizzbuzz",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-01-basics/exercises/ex04_fizzbuzz"
+    },
+    "binary": "stage-01-basics/exercises/ex04_fizzbuzz/target/debug/ex04_fizzbuzz"
+  },
+  {
+    "label": "▶ S1 · ex05_ownership_quiz（故意编译失败：用来修错）",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-01-basics/exercises/ex05_ownership_quiz"
+    },
+    "binary": "stage-01-basics/exercises/ex05_ownership_quiz/target/debug/ex05_ownership_quiz"
+  },
+  {
+    "label": "▶ S1 · ex06_borrow_checker",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-01-basics/exercises/ex06_borrow_checker"
+    },
+    "binary": "stage-01-basics/exercises/ex06_borrow_checker/target/debug/ex06_borrow_checker"
+  },
+  {
+    "label": "▶ S1 · ex07_slices",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-01-basics/exercises/ex07_slices"
+    },
+    "binary": "stage-01-basics/exercises/ex07_slices/target/debug/ex07_slices"
+  },
+  {
+    "label": "▶ S1 · project-01-guess-game",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-01-basics/project-01-guess-game"
+    },
+    "binary": "stage-01-basics/project-01-guess-game/target/debug/guess-game"
+  },
+
+  {
+    "label": "▶ S2 · ex01_struct_basics",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/exercises/ex01_struct_basics"
+    },
+    "binary": "stage-02-structuring/exercises/ex01_struct_basics/target/debug/ex01_struct_basics"
+  },
+  {
+    "label": "▶ S2 · ex02_methods",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/exercises/ex02_methods"
+    },
+    "binary": "stage-02-structuring/exercises/ex02_methods/target/debug/ex02_methods"
+  },
+  {
+    "label": "▶ S2 · ex03_enum_matching",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/exercises/ex03_enum_matching"
+    },
+    "binary": "stage-02-structuring/exercises/ex03_enum_matching/target/debug/ex03_enum_matching"
+  },
+  {
+    "label": "▶ S2 · ex04_option_result",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/exercises/ex04_option_result"
+    },
+    "binary": "stage-02-structuring/exercises/ex04_option_result/target/debug/ex04_option_result"
+  },
+  {
+    "label": "▶ S2 · ex05_error_handling",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/exercises/ex05_error_handling"
+    },
+    "binary": "stage-02-structuring/exercises/ex05_error_handling/target/debug/ex05_error_handling"
+  },
+  {
+    "label": "▶ S2 · ex06_modules",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/exercises/ex06_modules"
+    },
+    "binary": "stage-02-structuring/exercises/ex06_modules/target/debug/ex06_modules"
+  },
+  {
+    "label": "▶ S2 · ex07_collections",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/exercises/ex07_collections"
+    },
+    "binary": "stage-02-structuring/exercises/ex07_collections/target/debug/ex07_collections"
+  },
+  {
+    "label": "▶ S2 · project-02-cli-todo (list)",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/project-02-cli-todo"
+    },
+    "binary": "stage-02-structuring/project-02-cli-todo/target/debug/cli-todo",
+    "args": ["list"]
+  },
+  {
+    "label": "▶ S2 · project-02-cli-todo (add demo)",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-02-structuring/project-02-cli-todo"
+    },
+    "binary": "stage-02-structuring/project-02-cli-todo/target/debug/cli-todo",
+    "args": ["add", "从 Zed 调试启动"]
+  }
+]

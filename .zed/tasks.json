@@ -1,0 +1,38 @@
+[
+  {
+    "label": "cargo run (current dir)",
+    "command": "cargo",
+    "args": ["run"],
+    "cwd": "$ZED_DIRNAME"
+  },
+  {
+    "label": "cargo check (current dir)",
+    "command": "cargo",
+    "args": ["check"],
+    "cwd": "$ZED_DIRNAME"
+  },
+  {
+    "label": "cargo test (current dir)",
+    "command": "cargo",
+    "args": ["test"],
+    "cwd": "$ZED_DIRNAME"
+  },
+  {
+    "label": "cargo build --release (current dir)",
+    "command": "cargo",
+    "args": ["build", "--release"],
+    "cwd": "$ZED_DIRNAME"
+  },
+  {
+    "label": "cargo fmt (current dir)",
+    "command": "cargo",
+    "args": ["fmt"],
+    "cwd": "$ZED_DIRNAME"
+  },
+  {
+    "label": "cargo clippy (current dir)",
+    "command": "cargo",
+    "args": ["clippy", "--all-targets", "--", "-D", "warnings"],
+    "cwd": "$ZED_DIRNAME"
+  }
+]
