@@ -1,0 +1,19 @@
+# Rust 编译产物
+target/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# cargo 生成
+**/*.rs.bk
+Cargo.lock.bak
+
+# 一些 crate 可能需要
+**/*.pdb
+
+# 不要忽略根 Cargo.lock（如果以后建 workspace）
+# !/Cargo.lock
