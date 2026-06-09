@@ -10,7 +10,7 @@
 | **Stage 2** | 结构化代码与错误处理 | ✅ 已完成 | [stage-02-structuring/](./stage-02-structuring/) |
 | **Stage 3** | 泛型、Trait 与生命周期 | ✅ 已完成 | [stage-03-generics-traits/](./stage-03-generics-traits/) |
 | **Stage 4** | 智能指针、闭包、迭代器 | ✅ 已完成 | [stage-04-smart-pointers-fp/](./stage-04-smart-pointers-fp/) |
-| Stage 5 | 并发与异步 | 📅 待开始 | — |
+| **Stage 5** | 并发与异步 | ✅ 已完成 | [stage-05-concurrency-async/](./stage-05-concurrency-async/) |
 | Stage 6 | 实战项目 | 📅 待开始 | — |
 
 完整规划见 [LEARNING_PLAN.md](./LEARNING_PLAN.md)。
@@ -98,3 +98,10 @@ cat README.md
   - [x] 编译验证：7/7 练习可编译
   - [x] JSON 解析器项目完整运行（5 个演示 + 完整断言通过；支持 null/bool/数字/字符串/数组/对象/嵌套）
   - [x] Zed 调试配置扩展到 33 个 entry
+- [x] **Stage 5**：
+  - [x] 7 篇教程文档（线程/通道/共享状态/async/Tokio/Send-Sync/阶段复习）
+  - [x] 7 个练习项目（含 tokio 依赖）
+  - [x] 1 个综合项目（异步 HTTP 抓取器：手写 server + reqwest 客户端 + 限流/超时/错误处理）
+  - [x] 编译验证：7/7 练习可编译
+  - [x] 异步抓取器项目完整运行（5 演示 + 完整断言通过；演示 1 并发 3ms / 演示 2 限流 ~600ms / 演示 3 超时 100ms / 演示 4 错误处理 / 演示 5 断言）
+  - [x] Zed 调试配置扩展到 41 个 entry

@@ -331,5 +331,85 @@
       "cwd": "stage-04-smart-pointers-fp/project-04-text-parser"
     },
     "binary": "stage-04-smart-pointers-fp/project-04-text-parser/target/debug/json-parser"
+  },
+  {
+    "label": "▶ S5 · ex01_threads",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-05-concurrency-async/exercises/ex01_threads"
+    },
+    "binary": "stage-05-concurrency-async/exercises/ex01_threads/target/debug/ex01_threads"
+  },
+  {
+    "label": "▶ S5 · ex02_channels",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-05-concurrency-async/exercises/ex02_channels"
+    },
+    "binary": "stage-05-concurrency-async/exercises/ex02_channels/target/debug/ex02_channels"
+  },
+  {
+    "label": "▶ S5 · ex03_shared_state",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-05-concurrency-async/exercises/ex03_shared_state"
+    },
+    "binary": "stage-05-concurrency-async/exercises/ex03_shared_state/target/debug/ex03_shared_state"
+  },
+  {
+    "label": "▶ S5 · ex04_async_await",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-05-concurrency-async/exercises/ex04_async_await"
+    },
+    "binary": "stage-05-concurrency-async/exercises/ex04_async_await/target/debug/ex04_async_await"
+  },
+  {
+    "label": "▶ S5 · ex05_tokio",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-05-concurrency-async/exercises/ex05_tokio"
+    },
+    "binary": "stage-05-concurrency-async/exercises/ex05_tokio/target/debug/ex05_tokio"
+  },
+  {
+    "label": "▶ S5 · ex06_send_sync",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-05-concurrency-async/exercises/ex06_send_sync"
+    },
+    "binary": "stage-05-concurrency-async/exercises/ex06_send_sync/target/debug/ex06_send_sync"
+  },
+  {
+    "label": "▶ S5 · ex07_async_streams",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-05-concurrency-async/exercises/ex07_async_streams"
+    },
+    "binary": "stage-05-concurrency-async/exercises/ex07_async_streams/target/debug/ex07_async_streams"
+  },
+  {
+    "label": "▶ S5 · project-05-async-scraper",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-05-concurrency-async/project-05-async-scraper"
+    },
+    "binary": "stage-05-concurrency-async/project-05-async-scraper/target/debug/async-scraper"
   }
 ]
