@@ -1,6 +1,7 @@
 [
   {
     "label": "▶ S1 · ex01_hello_cargo",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -10,6 +11,7 @@
   },
   {
     "label": "▶ S1 · ex02_fibonacci",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -19,6 +21,7 @@
   },
   {
     "label": "▶ S1 · ex03_temperature",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -28,6 +31,7 @@
   },
   {
     "label": "▶ S1 · ex04_fizzbuzz",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -37,6 +41,7 @@
   },
   {
     "label": "▶ S1 · ex05_ownership_quiz（故意编译失败：用来修错）",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -46,6 +51,7 @@
   },
   {
     "label": "▶ S1 · ex06_borrow_checker",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -55,6 +61,7 @@
   },
   {
     "label": "▶ S1 · ex07_slices",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -64,6 +71,7 @@
   },
   {
     "label": "▶ S1 · project-01-guess-game",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -74,6 +82,7 @@
 
   {
     "label": "▶ S2 · ex01_struct_basics",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -83,6 +92,7 @@
   },
   {
     "label": "▶ S2 · ex02_methods",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -92,6 +102,7 @@
   },
   {
     "label": "▶ S2 · ex03_enum_matching",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -101,6 +112,7 @@
   },
   {
     "label": "▶ S2 · ex04_option_result",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -110,6 +122,7 @@
   },
   {
     "label": "▶ S2 · ex05_error_handling",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -119,6 +132,7 @@
   },
   {
     "label": "▶ S2 · ex06_modules",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -128,6 +142,7 @@
   },
   {
     "label": "▶ S2 · ex07_collections",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -137,6 +152,7 @@
   },
   {
     "label": "▶ S2 · project-02-cli-todo (list)",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
@@ -147,6 +163,7 @@
   },
   {
     "label": "▶ S2 · project-02-cli-todo (add demo)",
+    "adapter": "CodeLLDB",
     "build": {
       "command": "cargo",
       "args": ["build"],
