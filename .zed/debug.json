@@ -251,5 +251,85 @@
       "cwd": "stage-03-generics-traits/project-03-lru-cache"
     },
     "binary": "stage-03-generics-traits/project-03-lru-cache/target/debug/lru-cache"
+  },
+  {
+    "label": "▶ S4 · ex01_box",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-04-smart-pointers-fp/exercises/ex01_box"
+    },
+    "binary": "stage-04-smart-pointers-fp/exercises/ex01_box/target/debug/ex01_box"
+  },
+  {
+    "label": "▶ S4 · ex02_rc",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-04-smart-pointers-fp/exercises/ex02_rc"
+    },
+    "binary": "stage-04-smart-pointers-fp/exercises/ex02_rc/target/debug/ex02_rc"
+  },
+  {
+    "label": "▶ S4 · ex03_refcell",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-04-smart-pointers-fp/exercises/ex03_refcell"
+    },
+    "binary": "stage-04-smart-pointers-fp/exercises/ex03_refcell/target/debug/ex03_refcell"
+  },
+  {
+    "label": "▶ S4 · ex04_closures",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-04-smart-pointers-fp/exercises/ex04_closures"
+    },
+    "binary": "stage-04-smart-pointers-fp/exercises/ex04_closures/target/debug/ex04_closures"
+  },
+  {
+    "label": "▶ S4 · ex05_iterators",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-04-smart-pointers-fp/exercises/ex05_iterators"
+    },
+    "binary": "stage-04-smart-pointers-fp/exercises/ex05_iterators/target/debug/ex05_iterators"
+  },
+  {
+    "label": "▶ S4 · ex06_custom_iterator",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-04-smart-pointers-fp/exercises/ex06_custom_iterator"
+    },
+    "binary": "stage-04-smart-pointers-fp/exercises/ex06_custom_iterator/target/debug/ex06_custom_iterator"
+  },
+  {
+    "label": "▶ S4 · ex07_smart_pointers_advanced",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-04-smart-pointers-fp/exercises/ex07_smart_pointers_advanced"
+    },
+    "binary": "stage-04-smart-pointers-fp/exercises/ex07_smart_pointers_advanced/target/debug/ex07_smart_pointers_advanced"
+  },
+  {
+    "label": "▶ S4 · project-04-text-parser (json)",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-04-smart-pointers-fp/project-04-text-parser"
+    },
+    "binary": "stage-04-smart-pointers-fp/project-04-text-parser/target/debug/json-parser"
   }
 ]

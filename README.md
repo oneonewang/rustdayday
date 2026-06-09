@@ -9,7 +9,7 @@
 | **Stage 1** | Rust 基础语法与工具链 | ✅ 已完成 | [stage-01-basics/](./stage-01-basics/) |
 | **Stage 2** | 结构化代码与错误处理 | ✅ 已完成 | [stage-02-structuring/](./stage-02-structuring/) |
 | **Stage 3** | 泛型、Trait 与生命周期 | ✅ 已完成 | [stage-03-generics-traits/](./stage-03-generics-traits/) |
-| Stage 4 | 智能指针、闭包、迭代器 | 📅 待开始 | — |
+| **Stage 4** | 智能指针、闭包、迭代器 | ✅ 已完成 | [stage-04-smart-pointers-fp/](./stage-04-smart-pointers-fp/) |
 | Stage 5 | 并发与异步 | 📅 待开始 | — |
 | Stage 6 | 实战项目 | 📅 待开始 | — |
 
@@ -91,3 +91,10 @@ cat README.md
   - [x] 编译验证：7/7 练习可编译
   - [x] LRU 缓存项目完整运行（6 个演示 + 完整断言通过）
   - [x] Zed 调试配置扩展到 25 个 entry
+- [x] **Stage 4**：
+  - [x] 6 篇教程文档（Box/Rc / RefCell / 闭包 / 迭代器 / 智能指针深入 / 阶段复习）
+  - [x] 7 个练习项目
+  - [x] 1 个综合项目（手写 JSON 解析器）
+  - [x] 编译验证：7/7 练习可编译
+  - [x] JSON 解析器项目完整运行（5 个演示 + 完整断言通过；支持 null/bool/数字/字符串/数组/对象/嵌套）
+  - [x] Zed 调试配置扩展到 33 个 entry
