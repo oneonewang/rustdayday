@@ -171,5 +171,85 @@
     },
     "binary": "stage-02-structuring/project-02-cli-todo/target/debug/cli-todo",
     "args": ["add", "从 Zed 调试启动"]
+  },
+  {
+    "label": "▶ S3 · ex01_generics",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-03-generics-traits/exercises/ex01_generics"
+    },
+    "binary": "stage-03-generics-traits/exercises/ex01_generics/target/debug/ex01_generics"
+  },
+  {
+    "label": "▶ S3 · ex02_traits",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-03-generics-traits/exercises/ex02_traits"
+    },
+    "binary": "stage-03-generics-traits/exercises/ex02_traits/target/debug/ex02_traits"
+  },
+  {
+    "label": "▶ S3 · ex03_trait_bounds",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-03-generics-traits/exercises/ex03_trait_bounds"
+    },
+    "binary": "stage-03-generics-traits/exercises/ex03_trait_bounds/target/debug/ex03_trait_bounds"
+  },
+  {
+    "label": "▶ S3 · ex04_lifetimes",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-03-generics-traits/exercises/ex04_lifetimes"
+    },
+    "binary": "stage-03-generics-traits/exercises/ex04_lifetimes/target/debug/ex04_lifetimes"
+  },
+  {
+    "label": "▶ S3 · ex05_operator_overload",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-03-generics-traits/exercises/ex05_operator_overload"
+    },
+    "binary": "stage-03-generics-traits/exercises/ex05_operator_overload/target/debug/ex05_operator_overload"
+  },
+  {
+    "label": "▶ S3 · ex06_trait_objects",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-03-generics-traits/exercises/ex06_trait_objects"
+    },
+    "binary": "stage-03-generics-traits/exercises/ex06_trait_objects/target/debug/ex06_trait_objects"
+  },
+  {
+    "label": "▶ S3 · ex07_advanced_traits",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-03-generics-traits/exercises/ex07_advanced_traits"
+    },
+    "binary": "stage-03-generics-traits/exercises/ex07_advanced_traits/target/debug/ex07_advanced_traits"
+  },
+  {
+    "label": "▶ S3 · project-03-lru-cache",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-03-generics-traits/project-03-lru-cache"
+    },
+    "binary": "stage-03-generics-traits/project-03-lru-cache/target/debug/lru-cache"
   }
 ]

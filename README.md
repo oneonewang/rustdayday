@@ -8,7 +8,7 @@
 |------|------|------|------|
 | **Stage 1** | Rust 基础语法与工具链 | ✅ 已完成 | [stage-01-basics/](./stage-01-basics/) |
 | **Stage 2** | 结构化代码与错误处理 | ✅ 已完成 | [stage-02-structuring/](./stage-02-structuring/) |
-| Stage 3 | 泛型、Trait 与生命周期 | 📅 待开始 | — |
+| **Stage 3** | 泛型、Trait 与生命周期 | ✅ 已完成 | [stage-03-generics-traits/](./stage-03-generics-traits/) |
 | Stage 4 | 智能指针、闭包、迭代器 | 📅 待开始 | — |
 | Stage 5 | 并发与异步 | 📅 待开始 | — |
 | Stage 6 | 实战项目 | 📅 待开始 | — |
@@ -84,3 +84,10 @@ cat README.md
   - [x] 1 个综合项目（CLI Todo 工具，支持 add/list/done/remove + JSON 持久化）
   - [x] 编译验证：7/7 练习可编译
   - [x] 项目可运行（已通过完整冒烟测试：增删查改、错误处理、JSON 持久化）
+- [x] **Stage 3**：
+  - [x] 6 篇教程文档（泛型 / Trait / 生命周期 / Trait Object / 高级 Trait / 阶段复习）
+  - [x] 7 个练习项目
+  - [x] 1 个综合项目（泛型 LRU 缓存）
+  - [x] 编译验证：7/7 练习可编译
+  - [x] LRU 缓存项目完整运行（6 个演示 + 完整断言通过）
+  - [x] Zed 调试配置扩展到 25 个 entry
