@@ -433,5 +433,16 @@
     },
     "binary": "stage-06-real-projects/project-A-async-web/target/debug/async-web",
     "args": ["selftest"]
+  },
+  {
+    "label": "▶ S6B · rustfind (default)",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-06-real-projects/project-B-rust-cli"
+    },
+    "binary": "stage-06-real-projects/project-B-rust-cli/target/debug/rustfind",
+    "args": ["TODO", "/home/wu/rustdayday/stage-04-smart-pointers-fp/docs/"]
   }
 ]
