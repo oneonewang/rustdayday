@@ -1,0 +1,17 @@
+[package]
+name = "stage-07A-bench"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[[bench]]
+name = "benches"
+harness = false
+
+[dependencies]
+rayon = "1"
+
+[dev-dependencies]
+criterion = "0.5"

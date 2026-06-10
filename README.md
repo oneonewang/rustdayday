@@ -15,6 +15,8 @@
 | **Stage 6B** | 高性能 CLI 工具 | ✅ 已完成 | [stage-06-real-projects/project-B-rust-cli/](./stage-06-real-projects/project-B-rust-cli/) |
 | **Stage 6C** | WebAssembly 前端 | ✅ 已完成 | [stage-06-real-projects/project-C-wasm-frontend/](./stage-06-real-projects/project-C-wasm-frontend/) |
 | **Stage 6D** | 系统编程 | ✅ 已完成 | [stage-06-real-projects/project-D-systems/](./stage-06-real-projects/project-D-systems/) |
+| **Stage 7A** | 性能基准 | ✅ 已完成 | [stage-07-advanced/7A-bench/](./stage-07-advanced/7A-bench/) |
+| Stage 7B–D | 数据库 / derive macro / 可观测性 | 📅 待开始 | — |
 
 完整规划见 [LEARNING_PLAN.md](./LEARNING_PLAN.md)。
 
