@@ -411,5 +411,27 @@
       "cwd": "stage-05-concurrency-async/project-05-async-scraper"
     },
     "binary": "stage-05-concurrency-async/project-05-async-scraper/target/debug/async-scraper"
+  },
+  {
+    "label": "▶ S6A · async-web (serve)",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-06-real-projects/project-A-async-web"
+    },
+    "binary": "stage-06-real-projects/project-A-async-web/target/debug/async-web",
+    "args": ["serve"]
+  },
+  {
+    "label": "▶ S6A · async-web (selftest)",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-06-real-projects/project-A-async-web"
+    },
+    "binary": "stage-06-real-projects/project-A-async-web/target/debug/async-web",
+    "args": ["selftest"]
   }
 ]

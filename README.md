@@ -11,7 +11,8 @@
 | **Stage 3** | 泛型、Trait 与生命周期 | ✅ 已完成 | [stage-03-generics-traits/](./stage-03-generics-traits/) |
 | **Stage 4** | 智能指针、闭包、迭代器 | ✅ 已完成 | [stage-04-smart-pointers-fp/](./stage-04-smart-pointers-fp/) |
 | **Stage 5** | 并发与异步 | ✅ 已完成 | [stage-05-concurrency-async/](./stage-05-concurrency-async/) |
-| Stage 6 | 实战项目 | 📅 待开始 | — |
+| **Stage 6A** | 异步 Web 后端 | ✅ 已完成 | [stage-06-real-projects/project-A-async-web/](./stage-06-real-projects/project-A-async-web/) |
+| Stage 6B–D | CLI / WASM / 系统编程 | 📅 待开始 | — |
 
 完整规划见 [LEARNING_PLAN.md](./LEARNING_PLAN.md)。
 
