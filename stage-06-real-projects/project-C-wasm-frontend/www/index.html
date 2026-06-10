@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Rust WASM Demo</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; max-width: 720px; margin: 2em auto; padding: 0 1em; }
+        h1 { color: #c75c2a; }
+        .row { margin: 0.5em 0; }
+        .out { background: #f0f0f0; padding: 0.5em; border-radius: 4px; font-family: monospace; }
+        input { padding: 0.3em; }
+        button { padding: 0.3em 0.8em; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🦀 Rust in the Browser</h1>
+    <p>WASM 模块版本: <span id="version">加载中…</span></p>
+
+    <h2>阶乘</h2>
+    <div class="row">
+        <input id="fact-n" type="number" value="10" min="0" max="20">
+        <button onclick="runFact()">计算</button>
+    </div>
+    <div id="fact-out" class="out">—</div>
+
+    <h2>斐波那契</h2>
+    <div class="row">
+        <input id="fib-n" type="number" value="20" min="0" max="90">
+        <button onclick="runFib()">计算</button>
+    </div>
+    <div id="fib-out" class="out">—</div>
+
+    <h2>字符串反转</h2>
+    <div class="row">
+        <input id="rev-s" value="hello rust">
+        <button onclick="runRev()">反转</button>
+    </div>
+    <div id="rev-out" class="out">—</div>
+
+    <h2>数组求和</h2>
+    <div class="row">
+        <input id="sum-s" value="1, 2, 3, 4, 5">
+        <button onclick="runSum()">求和</button>
+    </div>
+    <div id="sum-out" class="out">—</div>
+
+    <script type="module">
+        import init, { factorial, fibonacci, is_prime, reverse, sum_array, version } from "./wasm_frontend.js";
+
+        // wasm-bindgen `--target web` 生成的 init：异步，返回 Promise<void>
+        await init();
+
+        document.getElementById("version").textContent = version();
+        document.getElementById("fact-out").textContent = `factorial(10) = ${factorial(10)}`;
+
+        window.runFact = () => {
+            const n = parseInt(document.getElementById("fact-n").value, 10);
+            const r = factorial(n);
+            document.getElementById("fact-out").textContent = `factorial(${n}) = ${r}` + (is_prime(n) ? " (prime!)" : "");
+        };
+        window.runFib = () => {
+            const n = parseInt(document.getElementById("fib-n").value, 10);
+            document.getElementById("fib-out").textContent = `fib(${n}) = ${fibonacci(n)}`;
+        };
+        window.runRev = () => {
+            const s = document.getElementById("rev-s").value;
+            document.getElementById("rev-out").textContent = `reverse("${s}") = "${reverse(s)}"`;
+        };
+        window.runSum = () => {
+            const s = document.getElementById("sum-s").value;
+            const arr = s.split(",").map(x => parseFloat(x.trim())).filter(x => !isNaN(x));
+            document.getElementById("sum-out").textContent = `sum([${arr}]) = ${sum_array(arr)}`;
+        };
+    </script>
+</body>
+</html>
