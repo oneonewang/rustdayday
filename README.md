@@ -14,7 +14,7 @@
 | **Stage 6A** | 异步 Web 后端 | ✅ 已完成 | [stage-06-real-projects/project-A-async-web/](./stage-06-real-projects/project-A-async-web/) |
 | **Stage 6B** | 高性能 CLI 工具 | ✅ 已完成 | [stage-06-real-projects/project-B-rust-cli/](./stage-06-real-projects/project-B-rust-cli/) |
 | **Stage 6C** | WebAssembly 前端 | ✅ 已完成 | [stage-06-real-projects/project-C-wasm-frontend/](./stage-06-real-projects/project-C-wasm-frontend/) |
-| Stage 6D | 系统编程 | 📅 待开始 | — |
+| **Stage 6D** | 系统编程 | ✅ 已完成 | [stage-06-real-projects/project-D-systems/](./stage-06-real-projects/project-D-systems/) |
 
 完整规划见 [LEARNING_PLAN.md](./LEARNING_PLAN.md)。
 

@@ -454,5 +454,16 @@
       "cwd": "stage-06-real-projects/project-C-wasm-frontend"
     },
     "binary": "stage-06-real-projects/project-C-wasm-frontend/target/wasm32-unknown-unknown/release/wasm_frontend.wasm"
+  },
+  {
+    "label": "▶ S6D · readelf-lite (self)",
+    "adapter": "CodeLLDB",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+      "cwd": "stage-06-real-projects/project-D-systems"
+    },
+    "binary": "stage-06-real-projects/project-D-systems/target/debug/readelf-lite",
+    "args": ["stage-06-real-projects/project-D-systems/target/debug/readelf-lite"]
   }
 ]
